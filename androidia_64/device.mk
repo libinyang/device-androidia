@@ -340,7 +340,8 @@ PRODUCT_PACKAGES += \
     audio.primary.android_ia
 else
 PRODUCT_PACKAGES += \
-    audio.primary.default
+    audio.primary.default \
+    audio.stub.default
 endif
 
 # Extended Audio HALs

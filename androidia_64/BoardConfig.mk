@@ -215,7 +215,7 @@ endif
 ##############################################################
 BOARD_USES_ALSA_AUDIO := true
 BOARD_USES_TINY_ALSA_AUDIO := true
-BOARD_USES_GENERIC_AUDIO ?= false
+export BOARD_USES_GENERIC_AUDIO := true
 ifneq ($(BOARD_USES_GENERIC_AUDIO), true)
 # Audio HAL selection Flag default setting.
 #  INTEL_AUDIO_HAL:= audio     -> baseline HAL
